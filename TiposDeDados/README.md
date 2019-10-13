@@ -37,7 +37,7 @@ decimal mon = 1000.15m;
 (...)
 ```
 
-Default Value
+## Default Value
 
 Every data type has a default value. Numeric type is 0, boolean has false and char has '/0' as default value
 ```csharp
