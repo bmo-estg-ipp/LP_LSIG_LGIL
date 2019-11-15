@@ -10,7 +10,7 @@ namespace CalculatorSwitchCase
         {
             double valor1, valor2, total=0;
             char operador; //O tipo char armazena um carater
-            string valor1String, valor2String;
+            string valor1String, valor2String, operadorString;
 
             Console.WriteLine("Introduza o valor 1");
             valor1String = Console.ReadLine();
@@ -21,8 +21,8 @@ namespace CalculatorSwitchCase
             valor2 = double.Parse(valor2String);
 
             Console.WriteLine("Introduza o operador atitmético (+,-,/,*)");
-            valor1String = Console.ReadLine();
-            operador = char.Parse(valor1String);
+            operadorString = Console.ReadLine();
+            operador = char.Parse(operadorString);
 
             switch (operador)
             {
