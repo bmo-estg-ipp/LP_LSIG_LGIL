@@ -14,7 +14,7 @@ namespace ExemploContaVogais
          */
         static void Main(string[] args)
         {
-			const char sair1 = 's', sair2 = 'S';
+			const char SAIR_1 = 's', SAIR_2 = 'S';
 			char letra;
 			int numA = 0, numE = 0, numI = 0, numO = 0, numU = 0;
 
@@ -45,7 +45,7 @@ namespace ExemploContaVogais
 						numU++;
 						break;
 					default:
-						if (letra != sair1 && letra != sair2)
+						if (letra != SAIR_1 && letra != SAIR_2)
 						{
 							Console.WriteLine("Caracter inválido");
 						}
@@ -53,7 +53,7 @@ namespace ExemploContaVogais
 
 				}
 
-			} while (letra != sair1 && letra != sair2);
+			} while (letra != SAIR_1 && letra != SAIR_2);
 
 			Console.WriteLine("numA: " + numA + "\n"
 										+ "numE: " + numE + "\n"
