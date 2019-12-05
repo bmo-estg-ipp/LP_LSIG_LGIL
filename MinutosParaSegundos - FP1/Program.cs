@@ -21,11 +21,10 @@
             //imprimir resultados
             Console.WriteLine("Resultado: "+ segundos);
 
-
-			/**
-			 * Instrução facultativa que faz com que o programa apenas termine
-			 * após a introdução de algum valor
-			 */
+            /**
+            * Instrução facultativa que faz com que o programa apenas termine
+            * após a introdução de algum valor
+            */
 			Console.ReadKey();
 		}
     }
