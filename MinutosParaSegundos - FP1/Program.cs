@@ -25,7 +25,7 @@
             * Instrução facultativa que faz com que o programa apenas termine
             * após a introdução de algum valor
             */
-			Console.ReadKey();
+            Console.ReadKey();
 		}
     }
 
