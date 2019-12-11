@@ -14,11 +14,11 @@ namespace ExemploArrays2ComMetodos
     {
         static void Main(string[] args)
         {
-			//Declaração da constante para o número de elementos
-			const int TAMANHO = 5;
+            //Declaração da constante para o número de elementos
+            const int TAMANHO = 5;
 
-			//Declaração dos arrays com o mesmo tamanho
-			int[] numeros = new int[TAMANHO];
+            //Declaração dos arrays com o mesmo tamanho
+            int[] numeros = new int[TAMANHO];
             int[] numeros2 = new int[TAMANHO];
 
             /**
@@ -46,15 +46,14 @@ namespace ExemploArrays2ComMetodos
          * do método. Neste exemplo, os argumentos e parâmetros têm nomes diferentes.
          * Os arrays: numeros e numeros2 são identificados internamente em cada um
          * dos métodos como arrayNumeros (termo mais genérico para referenciar qualquer
-         * array enviado como argumento. Os parâmetros e variáveis de cada método
+         * array enviado como argumento). Os parâmetros e variáveis de cada método
          * só existem no contexto do método, não sendo visíveis para os restantes
          * métodos do programa.
          * Tem que existir correspondência de tipos entre os parâmetros
          * e argumentos (int[] e int, respetivamente).
          * void significa que o método não tem retorno (a referência com o nome:
          * arrayNumeros altera diretamente os valores associados aos arrays enviados
-         * por argumento (numeros e numeros2 - independentes de cada invocação do
-         * método)
+         * por argumento no método main
          * 
          */
         static void lerArray(int[] arrayNumeros, int numeroElementos)
