@@ -35,11 +35,11 @@ namespace ExemploMetodos
          * e assume o máximo caso seja superior a esse máximo
          *
          * Neste exemplo, o método retorna um valor do tipo double.
-         * Nas variáveis do tipo primitivo sé realizada uma passagem por valor.
+         * Nas variáveis do tipo primitivo é realizada uma passagem por valor.
          * Isto é, é sempre enviada uma cópia do valor enviado como argumento,
          * o que significa que alterações aos valores
          * dos parâmetros (dentro do método) não têm impacto no valor dos argumentos
-         * enviados por outros métodos na invocação do método.
+         * enviados por outros métodos na invocação do método LerValor.
          */
         static double LerValor(double min, double max)
         {
