@@ -2,7 +2,7 @@
 
 /**
  *  Exemplo de programa que declara um array,
- *  atribui um conjunto de 4 valores ao array e imprime-os
+ *  atribui um conjunto de 5 valores ao array e imprime-os
  *  de seguida
  *
  */
